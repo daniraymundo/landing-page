@@ -1,0 +1,35 @@
+/* * {
+    outline: 1px solid red;
+} */
+
+body {
+    display: flex;
+    flex-direction: column;
+    font-family: "Roboto",sans-serif;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 150px;
+    background-color: #1F2937;
+    align-items: center;
+}
+
+ul {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+    font-size: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    font-weight: 800;
+}
