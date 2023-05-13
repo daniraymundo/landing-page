@@ -81,3 +81,45 @@ a {
     background-color: #757779;
 
 }
+
+.two {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 60px 300px;
+    gap: 60px;
+}
+
+.two-title {
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.container {
+    display: flex;
+    gap: 80px;
+}
+
+.info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 150px;
+    gap: 10px;
+
+}
+
+.item {
+    width: 150px;
+    height: 150px;
+    border: 5px solid rgb(66, 66, 244);
+    border-radius: 10px;
+}
+
+.two-text {
+    text-align: center;
+    font-weight: lighter;
+    color: #1F2937;
+    font-size: 16px;
+}
