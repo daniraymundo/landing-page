@@ -96,7 +96,7 @@ a {
     font-weight: 800;
 }
 
-.container {
+.two-container {
     display: flex;
     gap: 80px;
 }
@@ -122,4 +122,29 @@ a {
     font-weight: lighter;
     color: #1F2937;
     font-size: 16px;
+}
+
+.three {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 120px 500px;
+    align-items: center;
+}
+
+.three-title {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: lighter;
+    color: #1F2937;
+    text-align: left;
+    width: 825px;
+
+}
+
+.three-subtext {
+    font-size: 24px;
+    font-weight: 800;
+    text-align: right;
+
 }
