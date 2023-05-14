@@ -6,6 +6,8 @@ body {
     display: flex;
     flex-direction: column;
     font-family: "Roboto",sans-serif;
+    border: 0px;
+    margin: 0px;
 }
 
 .header {
@@ -113,7 +115,7 @@ a {
 .item {
     width: 150px;
     height: 150px;
-    border: 5px solid rgb(66, 66, 244);
+    border: 5px solid #3882F6;
     border-radius: 10px;
 }
 
@@ -163,7 +165,7 @@ a {
     justify-content: space-between;
     padding: 50px 100px;
     width: 1500px;
-    border-radius: 5px;
+    border-radius: 8px;
 }
 
 .four-left {
@@ -194,4 +196,14 @@ a {
     font-size: 18px;
     font-weight: 800;
 
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    font-size: 18px;
+    padding: 40px 800px;
 }
