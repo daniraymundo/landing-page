@@ -12,10 +12,18 @@ body {
 
 .header {
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 10px 300px;
     background-color: #1F2937;
     align-items: center;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
 }
 
 ul {
@@ -23,6 +31,8 @@ ul {
     display: flex;
     gap: 15px;
     font-size: 18px;
+    justify-content: flex-end;
+    align-items: center;
 }
 
 a {
@@ -40,9 +50,24 @@ a {
     background-color: #1F2937;
     color: #F9FAF8;
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     padding: 120px 300px;
-    gap: 100px;
+}
+
+.one-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    max-width: 1200px;
+}
+
+.one-left {
+    width: 750px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    justify-content: flex-start;
 }
 
 .one-title {
@@ -54,13 +79,7 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
-.left {
-    width: 450px;
-    display: flex;
-    flex-direction: column;
-    gap: 10px;
-    justify-content: flex-start;
-}
+
 
 .one-sign-up {
     flex-grow: 0;
@@ -74,13 +93,21 @@ a {
     border: none;
 }
 
+.one-right {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    width: 100%;
+}
+
 .image-placeholder {
-    width: 500px;
     display: flex;
     justify-content: center;
     align-items: center;
     color: #E5E7EB;
     background-color: #757779;
+    height: 250px;
+    width: 600px;
 
 }
 
@@ -163,14 +190,17 @@ a {
     display: flex;
     color: #F9FAF8;
     justify-content: space-between;
-    padding: 50px 100px;
-    width: 1500px;
+    width: 100%;
+    max-width: 900px;
     border-radius: 8px;
+    height: 150px;
+    padding: 0px 150px;
 }
 
 .four-left {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .four-title {
