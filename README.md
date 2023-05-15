@@ -6,6 +6,7 @@
 
 # Live Preview
 View my landing page output <a href="https://daniraymundo.github.io/landing-page/">here</a>.
+<p><strong>I've noticed that this only looks fine when viewing at around 67% zoom or less in most browsers. I have yet to learn about responsive web design and using the right units. I'll revisit this once I do, but that's the workaround for now.</strong></p>
 
 # Reference image
 <p> This is the reference image: </p>
